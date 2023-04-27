@@ -206,6 +206,7 @@ footer {
   text-align: center;
   list-style: none;
   max-width: none;
+  padding-top: 2ch;
 }
 .page-footer ul {
   font-size: var(--step--2);
