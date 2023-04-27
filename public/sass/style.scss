@@ -1,17 +1,4 @@
 /* main */
-/* @link https://utopia.fyi/type/calculator?c=320,16,1.2,1600,24,1.5,5,2,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l&g=s,l,xl,12 */
-
-:root {
-  --step--2: clamp(0.67rem, calc(0.70rem + -0.03vw), 0.69rem);
-  --step--1: clamp(0.83rem, calc(0.79rem + 0.21vw), 1.00rem);
-  --step-0: clamp(1.00rem, calc(0.88rem + 0.63vw), 1.50rem);
-  --step-1: clamp(1.20rem, calc(0.94rem + 1.31vw), 2.25rem);
-  --step-2: clamp(1.44rem, calc(0.96rem + 2.42vw), 3.38rem);
-  --step-3: clamp(1.73rem, calc(0.89rem + 4.17vw), 5.06rem);
-  --step-4: clamp(2.07rem, calc(0.69rem + 6.90vw), 7.59rem);
-  --step-5: clamp(2.49rem, calc(0.26rem + 11.13vw), 11.39rem);
-}
-
 @font-face{
   font-family: "Heebo";
   font-weight: 400;
@@ -34,52 +21,30 @@
 }
 
 header{
-background: linear-gradient(to top, #ffffff 0%,#e5e5e5 100%);
-padding: 0 1vw;
-}
-nav{
-  display: grid;
-ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-  }
-  li {
-    display: inline-block;
-  }
-}
-
-.container:nth-child(2n){
-  background: linear-gradient(to top, #ffffff 0%,#e5e5e5 100%);
+  background-image: linear-gradient(90deg, rgba(177,177,177,20%) 0%, rgba(122,122,122,20%) 43%, rgba(205,205,205,20%) 93%, rgba(237,237,237,20%) 100%);
 }
 
 p{
   font-family: "Heebo";
   color: hsl(0,0,30);
   line-height: 2;
-  font-size: var(--step-0);
 }
 
 h1{
   font-family: "Prompt";
   color: black;
   text-align: center;
-  padding: 1ch;
-  font-size: var(--step-4);
 }
 
 h2{
   font-family: "Maitree";
   color: hsl(191, 27, 50);
-  padding: 1ch;
-  font-size: var(--step-2);
 }
 
 a{
   font-family: "Heebo";
-  color:hsl(170, 86, 25);
+  color: hsl(170, 86, 28);
   text-decoration: none;
-  font-size: var(--step-0);
 }
 
 a:hover{
@@ -108,7 +73,9 @@ svg{
 }
 
 .skip-link:focus:hover{
-  background-color: hsl(170, 86, 18);
-  color:white;
-  text-decoration: none;
+ background-color: hsl(170, 86, 18);
+}
+
+ul{
+  list-style-type: none;
 }
