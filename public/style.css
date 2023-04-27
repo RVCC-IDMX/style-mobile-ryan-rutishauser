@@ -21,9 +21,16 @@ p {
 h1 {
   font-family: "Prompt";
   color: black;
+  text-align: center;
 }
 
 h2 {
   font-family: "Maitree";
-  color: grey;
+  color: hsl(191deg, 27%, 50%);
+}
+
+a {
+  font-family: "Heebo";
+  color: hsl(170deg, 86%, 28%);
+  text-decoration-line: none;
 }
