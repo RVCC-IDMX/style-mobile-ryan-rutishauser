@@ -1,0 +1,29 @@
+/* main */
+@font-face {
+  font-family: "Heebo";
+  font-weight: 400;
+  src: url("../fonts/heebo-variablefont_wght-webfont.woff2") format("woff2"), url("../fonts/heebo-variablefont_wght-webfont.woff") format("woff");
+}
+@font-face {
+  font-family: "Maitree";
+  font-weight: 400;
+  src: url("../fonts/maitree-regular-webfont.woff2") format("woff2"), url("../fonts/maitree-regular-webfont.woff") format("woff");
+}
+@font-face {
+  font-family: "Prompt";
+  font-weight: 800;
+  src: url("../fonts/prompt-black-webfont.woff2") format("woff2"), url("../fonts/prompt-black-webfont.woff") format("woff");
+}
+p {
+  font-family: "Heebo";
+}
+
+h1 {
+  font-family: "Prompt";
+  color: black;
+}
+
+h2 {
+  font-family: "Maitree";
+  color: grey;
+}
