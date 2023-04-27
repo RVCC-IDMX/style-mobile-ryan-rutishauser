@@ -220,7 +220,7 @@ footer {
   width: 25%;
 }
 
-.profile ul, #styles ul {
+.profile ul, .profile h2, #styles ul, #styles h2 {
   text-align: center;
   list-style: none;
 }
